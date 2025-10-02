@@ -17,7 +17,7 @@ export class ExperiencePage implements OnInit {
 
   constructor(private sanitizer: DomSanitizer) {
     this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
-      'https://www.youtube.com/embed/xRRxou7zlxg?si=UUxTrEb-xgHmpJA9'
+      'https://www.youtube.com/embed/yhkBnw3yPMo?si=Ve_ZCbVfeR9OpzR3'
     );
   }
 
